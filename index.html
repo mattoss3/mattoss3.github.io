@@ -1,9 +1,26 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <title>Pagina Matheus</title>
+        <title>Primeira calculadora</title>
     </head>
     <body>
-        Ola Mundo
+        <script>
+		    var x;
+		    var y;
+		    var sinal;
+		    var result;
+		    sinal=prompt("operacao");
+		    x=parseInt(prompt("digite valor x"));
+		    y=parseInt(prompt("digite valor y"));
+		    if (sinal=="+") result=x+y;
+		    else{
+		    if (sinal=="-") result=x-y;
+		    else{
+		    if (sinal=="*") result=x*y;
+		    else{
+		    if (sinal=="/") result=x/y;
+		    else{alert("indefinido")}}}};
+			alert(result)
+	    </script>
     </body> 
 </html>
